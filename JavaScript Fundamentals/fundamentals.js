@@ -104,3 +104,9 @@ switch (day) {
     break;
 }
 console.log(text);
+
+// ---------------> Spread Operator <-----------
+const cirtus = ["lime", "lemon", "orange"];
+const fruits = ["banana", "apple", "coconut"];
+const mixFruit = [...cirtus, ...fruits];
+console.log(mixFruit); // Output: ["lime", "lemon", "orange", "banana", "apple", "coconut"]
