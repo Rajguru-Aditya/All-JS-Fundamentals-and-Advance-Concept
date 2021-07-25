@@ -110,3 +110,15 @@ const cirtus = ["lime", "lemon", "orange"];
 const fruits = ["banana", "apple", "coconut"];
 const mixFruit = [...cirtus, ...fruits];
 console.log(mixFruit); // Output: ["lime", "lemon", "orange", "banana", "apple", "coconut"]
+
+const fullName = {
+  fName: "James",
+  lName: "Bond",
+};
+const userProfile = {
+  ...fullName,
+  username: "jamesbond007",
+  email: "james007@bond.com",
+};
+console.log(userProfile);
+// Output: {fName: "James", lName: "Bond", username: "jamesbond007", email: "james007@bond.com"}
