@@ -24,6 +24,11 @@ function Name() {
 }
 Name();
 
+// ------------------> Arrow function <--------------
+
+const newName = () => console.log("Hello Aditya");
+newName();
+
 // -------------->Datatypes<--------------------
 
 let yourage = 19; // Integer/Number
